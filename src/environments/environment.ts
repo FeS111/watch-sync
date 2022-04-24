@@ -6,6 +6,7 @@ export const environment = {
   firebase: {
     projectId: 'fes-watch-sync',
     appId: '1:1046696012009:web:870379ac905af3558c2878',
+    databaseURL: 'https://fes-watch-sync-default-rtdb.europe-west1.firebasedatabase.app',
     storageBucket: 'fes-watch-sync.appspot.com',
     apiKey: 'AIzaSyDupaUyfTzHsx-SvehbbuVk4Z08HiIOoZ8',
     authDomain: 'fes-watch-sync.firebaseapp.com',
