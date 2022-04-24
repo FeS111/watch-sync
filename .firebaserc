@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "fes-watch-sync": {
+      "hosting": {
+        "watch-sync": [
+          "fes-watch-sync"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "fes-watch-sync"
+  }
+}

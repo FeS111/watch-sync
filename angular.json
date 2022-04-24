@@ -103,6 +103,16 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "watch-sync:build:production",
+            "firebaseProject": "fes-watch-sync",
+            "firebaseHostingSite": "fes-watch-sync"
+          }
         }
       }
     }
